@@ -9,10 +9,10 @@ public class Digits
 	{ /* to be implemented in part (a) */ 
 	digitList = new ArrayList<Integer>();
 	    if(num == 0 ){
-		    digitList.add(0);
+		    digitList.add(new Integer(0));
 	    }
 		while(num > 0){
-			digitList.add(0, num % 10);
+			digitList.add(0, new Integer(num % 10));
 			num = num / 10;
 		}
 	}
