@@ -7,7 +7,7 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-	    if(num == 0){
+	    if(num.equals(0)){
 		    digitList.add(0);
 	    }
 		while(num > 0){
