@@ -4,7 +4,7 @@ public class Digits
 {
 
 	private ArrayList<Integer> digitList;
-
+	{
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
 	digitList = new ArrayList<Integer>();
