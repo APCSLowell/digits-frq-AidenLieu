@@ -4,6 +4,8 @@ public class Digits
 {
 
 	private ArrayList<Integer> digitList;
+	
+	pub;oc Digits(int num)
 	{
 		digitList = new ArrayList<Integer>();
 		if (num == 0){digitList.add(new Integer(0));}
